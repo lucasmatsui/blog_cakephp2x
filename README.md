@@ -19,3 +19,6 @@ Depois acesse <b>localhost:8000</b> para entrar na aplicação e para acessar o 
 E por último importe o banco de dados de <b><i>Database/blog.sql</i><b>
 
 ## Preview
+
+![listblog](https://user-images.githubusercontent.com/31348487/67706086-de35f700-f996-11e9-825e-b193d7939d69.png)
+![loginblog](https://user-images.githubusercontent.com/31348487/67706126-f0b03080-f996-11e9-94b3-cae55d8e8370.png)

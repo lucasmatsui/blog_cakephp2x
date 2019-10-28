@@ -1,0 +1,40 @@
+version: "3"
+
+services: 
+  app:
+    build:
+      dockerfile: ./docker/Dockerfile
+      context: .
+    volumes: 
+      - .:/var/www/html
+    ports: 
+      - 8000:80
+    container_name: blog
+    depends_on: 
+      - db
+      - myadmin
+    
+  db:
+    image: mysql:5
+    volumes:
+      - db-data:/var/lib/mysql
+    container_name: mysql_blog
+    environment:
+      MYSQL_DATABASE: blog
+      MYSQL_ROOT_PASSWORD: root_password
+  
+  myadmin:
+    image: phpmyadmin/phpmyadmin
+    links: 
+      - db
+    ports: 
+      - "3000:80"
+    container_name: phpmyadmin
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+    depends_on: 
+      - db
+    
+volumes:
+  db-data:
+    external: false    

@@ -72,9 +72,9 @@ class DATABASE_CONFIG {
 		'host' => 'db',
 		'login' => 'root',
 		'password' => 'root_password',
-		'database' => 'cakephp_db',
+		'database' => 'blog',
 		'prefix' => '',
-		//'encoding' => 'utf8',
+		'encoding' => 'utf8',
 	);
 
 	public $test = array(

@@ -1201,3 +1201,309 @@ Stack Trace:
 #4 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #5 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2019-10-29 13:47:18 Error: [Error] Call to a member function registerLog() on null
+Request URL: /posts/view/21
+Stack Trace:
+#0 [internal function]: PostsController->view('21')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-29 13:47:43 Error: [Error] Call to a member function registerLog() on null
+Request URL: /posts/view/21
+Stack Trace:
+#0 [internal function]: PostsController->view('21')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-29 13:49:51 Error: [Error] Call to a member function registerLog() on null
+Request URL: /posts/view/21
+Stack Trace:
+#0 [internal function]: PostsController->view('21')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-29 13:49:54 Error: [Error] Call to a member function registerLog() on null
+Request URL: /posts/view/21
+Stack Trace:
+#0 [internal function]: PostsController->view('21')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-29 13:55:17 Error: [Error] Call to a member function user() on null
+Request URL: /posts/view/21
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(Post), 'Criou um log')
+#1 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(Post), Array, Array)
+#2 /var/www/html/app/Controller/PostsController.php(42): Model->__call('registerLog', Array)
+#3 [internal function]: PostsController->view('21')
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-29 14:11:06 Error: [ArgumentCountError] Too few arguments to function LogBehavior::registerLog(), 2 passed in /var/www/html/lib/Cake/Model/BehaviorCollection.php on line 238 and exactly 3 expected
+Request URL: /posts/view/21
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(Post), 'Criou o log')
+#1 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(Post), Array, Array)
+#2 /var/www/html/app/Controller/PostsController.php(41): Model->__call('registerLog', Array)
+#3 [internal function]: PostsController->view('21')
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-29 14:11:07 Error: [ArgumentCountError] Too few arguments to function LogBehavior::registerLog(), 2 passed in /var/www/html/lib/Cake/Model/BehaviorCollection.php on line 238 and exactly 3 expected
+Request URL: /posts/view/21
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(Post), 'Criou o log')
+#1 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(Post), Array, Array)
+#2 /var/www/html/app/Controller/PostsController.php(41): Model->__call('registerLog', Array)
+#3 [internal function]: PostsController->view('21')
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-29 16:45:00 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user' at line 1
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('user', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('user', Array, Array)
+#3 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll('user', Array, Array)
+#4 /var/www/html/lib/Cake/Model/Model.php(834): DboSource->query('user', Array, Object(User))
+#5 /var/www/html/app/Controller/UsersController.php(44): Model->__call('user', Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-29 17:19:15 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_user' cannot be null
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO log...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('INSERT INTO log...', Array, Array)
+#3 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll('INSERT INTO log...', Array, Array)
+#4 /var/www/html/lib/Cake/Model/Model.php(3489): DboSource->query('INSERT INTO log...', Array, false)
+#5 /var/www/html/app/Model/Behavior/LogBehavior.php(14): Model->query('INSERT INTO log...', Array)
+#6 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(Post), '[Novo] O usuari...', NULL)
+#7 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(Post), Array, Array)
+#8 /var/www/html/app/Model/AppModel.php(55): Model->__call('registerLog', Array)
+#9 /var/www/html/app/Model/AppModel.php(37): AppModel->saveLog(true, Array)
+#10 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): AppModel->afterSave(true, Array)
+#11 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#13 /var/www/html/app/Controller/PostsController.php(49): Model->save(Array)
+#14 [internal function]: PostsController->add()
+#15 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#16 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#17 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#18 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2019-10-29 17:38:39 Error: [Error] Call to a member function user() on null
+Request URL: /posts/delete/46
+Stack Trace:
+#0 /var/www/html/app/Model/Post.php(27): Post->deleteLog()
+#1 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): Post->afterDelete(Object(CakeEvent))
+#2 /var/www/html/lib/Cake/Model/Model.php(2731): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /var/www/html/app/Controller/PostsController.php(103): Model->delete('46')
+#4 [internal function]: PostsController->delete('46')
+#5 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-10-29 18:05:11 Error: [ArgumentCountError] Too few arguments to function LogBehavior::registerLog(), 3 passed in /var/www/html/lib/Cake/Model/BehaviorCollection.php on line 238 and exactly 4 expected
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(User), '[Login] 123 log...', '31')
+#1 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(User), Array, Array)
+#2 /var/www/html/app/Controller/UsersController.php(16): Model->__call('registerLog', Array)
+#3 [internal function]: UsersController->login()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-29 18:06:06 Error: [ArgumentCountError] Too few arguments to function LogBehavior::registerLog(), 3 passed in /var/www/html/lib/Cake/Model/BehaviorCollection.php on line 238 and exactly 4 expected
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(User), '[Login] 123 log...', '31')
+#1 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(User), Array, Array)
+#2 /var/www/html/app/Controller/UsersController.php(16): Model->__call('registerLog', Array)
+#3 [internal function]: UsersController->login()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-29 18:06:33 Error: [ArgumentCountError] Too few arguments to function LogBehavior::registerLog(), 3 passed in /var/www/html/lib/Cake/Model/BehaviorCollection.php on line 238 and exactly 4 expected
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(User), '[Login] 123 log...', '31')
+#1 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(User), Array, Array)
+#2 /var/www/html/app/Controller/UsersController.php(16): Model->__call('registerLog', Array)
+#3 [internal function]: UsersController->login()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-29 18:06:46 Error: [ArgumentCountError] Too few arguments to function LogBehavior::registerLog(), 3 passed in /var/www/html/lib/Cake/Model/BehaviorCollection.php on line 238 and exactly 4 expected
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(User), '[Login] 123 log...', '31')
+#1 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(User), Array, Array)
+#2 /var/www/html/app/Controller/UsersController.php(16): Model->__call('registerLog', Array)
+#3 [internal function]: UsersController->login()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-29 18:06:53 Error: [ArgumentCountError] Too few arguments to function LogBehavior::registerLog(), 3 passed in /var/www/html/lib/Cake/Model/BehaviorCollection.php on line 238 and exactly 4 expected
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(User), '[Loggout] 123 d...', '31')
+#1 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(User), Array, Array)
+#2 /var/www/html/app/Controller/UsersController.php(28): Model->__call('registerLog', Array)
+#3 [internal function]: UsersController->logout()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-29 18:07:24 Error: [ArgumentCountError] Too few arguments to function LogBehavior::registerLog(), 3 passed in /var/www/html/lib/Cake/Model/BehaviorCollection.php on line 238 and exactly 4 expected
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(User), '[Loggout] 123 d...', '31')
+#1 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(User), Array, Array)
+#2 /var/www/html/app/Controller/UsersController.php(28): Model->__call('registerLog', Array)
+#3 [internal function]: UsersController->logout()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-29 18:07:25 Error: [ArgumentCountError] Too few arguments to function LogBehavior::registerLog(), 3 passed in /var/www/html/lib/Cake/Model/BehaviorCollection.php on line 238 and exactly 4 expected
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(User), '[Loggout] 123 d...', '31')
+#1 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(User), Array, Array)
+#2 /var/www/html/app/Controller/UsersController.php(28): Model->__call('registerLog', Array)
+#3 [internal function]: UsersController->logout()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-29 18:07:26 Error: [ArgumentCountError] Too few arguments to function LogBehavior::registerLog(), 3 passed in /var/www/html/lib/Cake/Model/BehaviorCollection.php on line 238 and exactly 4 expected
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(User), '[Loggout] 123 d...', '31')
+#1 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(User), Array, Array)
+#2 /var/www/html/app/Controller/UsersController.php(28): Model->__call('registerLog', Array)
+#3 [internal function]: UsersController->logout()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-29 18:07:31 Error: [ArgumentCountError] Too few arguments to function LogBehavior::registerLog(), 3 passed in /var/www/html/lib/Cake/Model/BehaviorCollection.php on line 238 and exactly 4 expected
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(User), '[Loggout] 123 d...', '31')
+#1 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(User), Array, Array)
+#2 /var/www/html/app/Controller/UsersController.php(28): Model->__call('registerLog', Array)
+#3 [internal function]: UsersController->logout()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-29 18:08:07 Error: [ArgumentCountError] Too few arguments to function LogBehavior::registerLog(), 3 passed in /var/www/html/lib/Cake/Model/BehaviorCollection.php on line 238 and exactly 4 expected
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(User), '[Loggout] 123 d...', '31')
+#1 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(User), Array, Array)
+#2 /var/www/html/app/Controller/UsersController.php(28): Model->__call('registerLog', Array)
+#3 [internal function]: UsersController->logout()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-29 18:15:38 Error: [ParseError] syntax error, unexpected '=', expecting ')'
+Request URL: /users/add
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-10-29 18:18:21 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'findBy' at line 1
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('findBy', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('findBy', Array, Array)
+#3 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll('findBy', Array, Array)
+#4 /var/www/html/lib/Cake/Model/Model.php(834): DboSource->query('findBy', Array, Object(User))
+#5 /var/www/html/app/Controller/UsersController.php(39): Model->__call('findBy', Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-29 18:30:38 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-10-29 18:32:13 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /users/add
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-10-29 19:18:58 Error: [PDOException] SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'id_user' at row 1
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO log...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('INSERT INTO log...', Array, Array)
+#3 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll('INSERT INTO log...', Array, Array)
+#4 /var/www/html/lib/Cake/Model/Model.php(3489): DboSource->query('INSERT INTO log...', Array, false)
+#5 /var/www/html/app/Model/Behavior/LogBehavior.php(14): Model->query('INSERT INTO log...', Array)
+#6 /var/www/html/lib/Cake/Model/BehaviorCollection.php(238): LogBehavior->registerLog(Object(User), '[Novo] O usuari...', false)
+#7 /var/www/html/lib/Cake/Model/Model.php(829): BehaviorCollection->dispatchMethod(Object(User), Array, Array)
+#8 /var/www/html/app/Controller/UsersController.php(45): Model->__call('registerLog', Array)
+#9 [internal function]: UsersController->add()
+#10 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}

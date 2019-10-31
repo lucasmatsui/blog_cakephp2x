@@ -1507,3 +1507,1277 @@ Stack Trace:
 #12 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #13 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #14 {main}
+2019-10-30 17:54:28 Error: [Error] Call to a member function query() on array
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->registerLog(Object(CakeEvent))
+#1 /var/www/html/app/Model/User.php(48): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#3 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-30 17:54:41 Error: [Error] Call to undefined method CakeEvent::query()
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->registerLog(Object(CakeEvent))
+#1 /var/www/html/app/Model/User.php(48): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#3 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-30 17:56:36 Error: [Error] Call to undefined method CakeEvent::query()
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->registerLog(Object(CakeEvent))
+#1 /var/www/html/app/Model/User.php(48): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#3 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-30 17:56:49 Error: [Error] Call to a member function query() on array
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->registerLog(Object(CakeEvent))
+#1 /var/www/html/app/Model/User.php(48): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#3 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-30 17:57:10 Error: [Error] Call to undefined method CakeEvent::query()
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->registerLog(Object(CakeEvent))
+#1 /var/www/html/app/Model/User.php(48): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#3 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-30 17:59:49 Error: [Error] Call to undefined method CakeEvent::query()
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#1 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#3 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-10-30 17:59:57 Error: [Error] Call to undefined method CakeEvent::query()
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#1 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#3 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-10-30 18:00:07 Error: [Error] Call to undefined method CakeEvent::query()
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#1 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#3 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-10-30 18:01:05 Error: [Error] Call to undefined method CakeEvent::query()
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->registerLog(Object(CakeEvent))
+#1 /var/www/html/app/Model/User.php(50): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#3 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-30 18:02:15 Error: [ArgumentCountError] Too few arguments to function Model::query(), 0 passed in /var/www/html/app/Model/User.php on line 46 and exactly 1 expected
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/app/Model/User.php(46): Model->query()
+#1 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#4 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#5 [internal function]: UsersController->add()
+#6 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-10-30 18:09:58 Error: [MissingDatasourceConfigException] The datasource configuration "blog" was not found in database.php
+Exception Attributes: array (
+  'config' => 'blog',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject('blog')
+#1 /var/www/html/app/Lib/Event/LogListener.php(15): ConnectionManager::getDataSource('blog')
+#2 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->registerLog(Object(CakeEvent))
+#3 /var/www/html/app/Model/User.php(48): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#5 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#7 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#8 [internal function]: UsersController->add()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-10-30 18:11:01 Error: [MissingDatasourceConfigException] The datasource configuration "blog" was not found in database.php
+Exception Attributes: array (
+  'config' => 'blog',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject('blog')
+#1 /var/www/html/app/Lib/Event/LogListener.php(15): ConnectionManager::getDataSource('blog')
+#2 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->registerLog(Object(CakeEvent))
+#3 /var/www/html/app/Model/User.php(48): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#5 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#7 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#8 [internal function]: UsersController->add()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-10-30 18:11:59 Error: [MissingDatasourceConfigException] The datasource configuration "db" was not found in database.php
+Exception Attributes: array (
+  'config' => 'db',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject('db')
+#1 /var/www/html/app/Lib/Event/LogListener.php(15): ConnectionManager::getDataSource('db')
+#2 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->registerLog(Object(CakeEvent))
+#3 /var/www/html/app/Model/User.php(48): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#5 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#7 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#8 [internal function]: UsersController->add()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-10-30 18:20:13 Error: [PDOException] SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO log...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('INSERT INTO log...', Array, Array)
+#3 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('INSERT INTO log...', Array)
+#4 /var/www/html/app/Lib/Event/LogListener.php(20): DboSource->query('INSERT INTO log...', '109', '[Novo] O Usuari...', '172.21.0.1')
+#5 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->registerLog(Object(CakeEvent))
+#6 /var/www/html/app/Model/User.php(48): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#8 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#10 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#11 [internal function]: UsersController->add()
+#12 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2019-10-30 18:22:41 Error: [PDOException] SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO log...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('INSERT INTO log...', Array, Array)
+#3 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('INSERT INTO log...', Array)
+#4 /var/www/html/app/Lib/Event/LogListener.php(20): DboSource->query('INSERT INTO log...', '115', '[Novo] O Usuari...', '172.21.0.1')
+#5 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->registerLog(Object(CakeEvent))
+#6 /var/www/html/app/Model/User.php(48): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#8 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#10 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#11 [internal function]: UsersController->add()
+#12 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2019-10-30 19:03:47 Error: [ArgumentCountError] Too few arguments to function LogListener::registerLogUser(), 1 passed in /var/www/html/lib/Cake/Event/CakeEventManager.php on line 244 and exactly 2 expected
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->registerLogUser(Object(CakeEvent))
+#1 /var/www/html/app/Model/User.php(48): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#3 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-30 19:04:00 Error: [ArgumentCountError] Too few arguments to function LogListener::registerLogUser(), 1 passed in /var/www/html/lib/Cake/Event/CakeEventManager.php on line 244 and exactly 2 expected
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->registerLogUser(Object(CakeEvent))
+#1 /var/www/html/app/Model/User.php(48): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#3 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-31 11:35:07 Error: [Error] Call to undefined method LogListener::saveActionOnTableLog()
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->RegisterLogUserAfterSave(Object(CakeEvent))
+#1 /var/www/html/app/Model/User.php(48): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#3 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-31 11:38:55 Error: [Error] Call to undefined method LogListener::saveActionOnTableLog()
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->RegisterLogUserAfterSave(Object(CakeEvent))
+#1 /var/www/html/app/Model/User.php(48): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): User->afterSave(true, Array)
+#3 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/html/app/Controller/UsersController.php(36): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-31 12:16:44 Error: [Error] Call to a member function find() on null
+Request URL: /posts/delete/9
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): Post->beforeDelete(false)
+#1 /var/www/html/lib/Cake/Model/Model.php(2694): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/app/Controller/PostsController.php(98): Model->delete('9', false)
+#3 [internal function]: PostsController->delete('9')
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-31 12:33:21 Error: [Error] Call to a member function user() on null
+Request URL: /posts/delete/9
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): Post->beforeDelete(false)
+#1 /var/www/html/lib/Cake/Model/Model.php(2694): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/app/Controller/PostsController.php(98): Model->delete('9', false)
+#3 [internal function]: PostsController->delete('9')
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-31 12:36:16 Error: [Error] Call to a member function user() on null
+Request URL: /posts/delete/9
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): Post->beforeDelete(false)
+#1 /var/www/html/lib/Cake/Model/Model.php(2694): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/app/Controller/PostsController.php(98): Model->delete('9', false)
+#3 [internal function]: PostsController->delete('9')
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-31 12:43:53 Error: [Error] Call to a member function find() on null
+Request URL: /posts/delete/9
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): Post->beforeDelete(false)
+#1 /var/www/html/lib/Cake/Model/Model.php(2694): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/app/Controller/PostsController.php(98): Model->delete('9', false)
+#3 [internal function]: PostsController->delete('9')
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-31 12:44:32 Error: [Error] Call to a member function find() on null
+Request URL: /posts/delete/9
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): Post->beforeDelete(false)
+#1 /var/www/html/lib/Cake/Model/Model.php(2694): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/app/Controller/PostsController.php(98): Model->delete('9', false)
+#3 [internal function]: PostsController->delete('9')
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-31 12:44:43 Error: [Error] Call to a member function find() on null
+Request URL: /posts/delete/9
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): Post->beforeDelete(false)
+#1 /var/www/html/lib/Cake/Model/Model.php(2694): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/app/Controller/PostsController.php(98): Model->delete('9', false)
+#3 [internal function]: PostsController->delete('9')
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-31 12:45:04 Error: [Error] Call to a member function find() on null
+Request URL: /posts/delete/9
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): Post->beforeDelete(false)
+#1 /var/www/html/lib/Cake/Model/Model.php(2694): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/app/Controller/PostsController.php(98): Model->delete('9', false)
+#3 [internal function]: PostsController->delete('9')
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-31 12:46:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.user_id' in 'where clause'
+Request URL: /posts/delete/9
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 /var/www/html/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#5 /var/www/html/lib/Cake/Model/Model.php(3025): Model->_readDataSource('first', Array)
+#6 /var/www/html/app/Model/Post.php(32): Model->find('first', Array)
+#7 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): Post->beforeDelete(false)
+#8 /var/www/html/lib/Cake/Model/Model.php(2694): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /var/www/html/app/Controller/PostsController.php(98): Model->delete('9', false)
+#10 [internal function]: PostsController->delete('9')
+#11 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-10-31 12:49:03 Error: [Error] Call to a member function find() on null
+Request URL: /posts/delete/9
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): Post->beforeDelete(false)
+#1 /var/www/html/lib/Cake/Model/Model.php(2694): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/app/Controller/PostsController.php(98): Model->delete('9', false)
+#3 [internal function]: PostsController->delete('9')
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-31 12:49:13 Error: [Error] Call to a member function find() on null
+Request URL: /posts/delete/9
+Stack Trace:
+#0 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): Post->beforeDelete(false)
+#1 /var/www/html/lib/Cake/Model/Model.php(2694): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/app/Controller/PostsController.php(98): Model->delete('9', false)
+#3 [internal function]: PostsController->delete('9')
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-31 13:58:56 Error: [Error] Function name must be a string
+Request URL: /posts/edit/20
+Stack Trace:
+#0 [internal function]: PostsController->edit('20')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 14:00:04 Error: [TypeError] Argument 1 passed to Hash::dimensions() must be of the type array, string given, called in /var/www/html/lib/Cake/Model/Model.php on line 1801
+Request URL: /posts/edit/20
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Model.php(1801): Hash::dimensions('user_id')
+#1 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#2 /var/www/html/app/Controller/PostsController.php(75): Model->save(Array, Array)
+#3 [internal function]: PostsController->edit('20')
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-31 16:19:00 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_user' cannot be null
+Request URL: /posts/edit/27
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO log...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('INSERT INTO log...', Array, Array)
+#3 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll('INSERT INTO log...', Array, Array)
+#4 /var/www/html/app/Lib/Event/LogListener.php(23): DboSource->query('INSERT INTO log...', Array)
+#5 /var/www/html/app/Lib/Event/LogListener.php(50): LogListener->saveActionOnTableLogs(NULL, '[Editou] id_pos...')
+#6 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->RegisterLogPostAfterSaveUpdate(Object(CakeEvent))
+#7 /var/www/html/app/Model/Post.php(38): CakeEventManager->dispatch(Object(CakeEvent))
+#8 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): Post->afterSave(false, Array)
+#9 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#11 /var/www/html/app/Controller/PostsController.php(75): Model->save(Array)
+#12 [internal function]: PostsController->edit('27')
+#13 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#15 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#16 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2019-10-31 16:19:11 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_user' cannot be null
+Request URL: /posts/edit/27
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO log...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('INSERT INTO log...', Array, Array)
+#3 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll('INSERT INTO log...', Array, Array)
+#4 /var/www/html/app/Lib/Event/LogListener.php(23): DboSource->query('INSERT INTO log...', Array)
+#5 /var/www/html/app/Lib/Event/LogListener.php(50): LogListener->saveActionOnTableLogs(NULL, '[Editou] id_pos...')
+#6 /var/www/html/lib/Cake/Event/CakeEventManager.php(244): LogListener->RegisterLogPostAfterSaveUpdate(Object(CakeEvent))
+#7 /var/www/html/app/Model/Post.php(38): CakeEventManager->dispatch(Object(CakeEvent))
+#8 /var/www/html/lib/Cake/Event/CakeEventManager.php(242): Post->afterSave(false, Array)
+#9 /var/www/html/lib/Cake/Model/Model.php(1970): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#11 /var/www/html/app/Controller/PostsController.php(75): Model->save(Array)
+#12 [internal function]: PostsController->edit('27')
+#13 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#15 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#16 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2019-10-31 16:19:14 Error: [MissingControllerException] Controller class PController could not be found.
+Exception Attributes: array (
+  'class' => 'PController',
+  'plugin' => NULL,
+)
+Request URL: /p
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-10-31 17:09:25 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Autoloader.php' (include_path='/var/www/html/lib:.:/usr/local/lib/php') in [/var/www/html/app/Plugin/TwigView/View/TwigView.php, line 24]
+2019-10-31 17:09:25 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Autoloader.php' (include_path='/var/www/html/lib:.:/usr/local/lib/php')
+Request URL: /
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/a...', 24)
+#1 /var/www/html/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/a...', 24, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-31 17:11:57 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Autoloader.php' (include_path='/var/www/html/lib:.:/usr/local/lib/php') in [/var/www/html/app/Plugin/TwigView/View/TwigView.php, line 24]
+2019-10-31 17:11:57 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Autoloader.php' (include_path='/var/www/html/lib:.:/usr/local/lib/php')
+Request URL: /
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/a...', 24)
+#1 /var/www/html/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/a...', 24, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-31 17:14:48 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Autoloader.php' (include_path='/var/www/html/lib:.:/usr/local/lib/php') in [/var/www/html/app/Plugin/TwigView/View/TwigView.php, line 24]
+2019-10-31 17:14:48 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Autoloader.php' (include_path='/var/www/html/lib:.:/usr/local/lib/php')
+Request URL: /
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/a...', 24)
+#1 /var/www/html/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/a...', 24, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-31 17:16:26 Error: [MissingPluginException] Plugin TwigView could not be found.
+Exception Attributes: array (
+  'plugin' => 'TwigView',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/html/lib/Cake/Core/App.php(227): CakePlugin::path('TwigView')
+#1 /var/www/html/lib/Cake/Core/App.php(549): App::path('View', 'TwigView')
+#2 [internal function]: App::load('TwigView')
+#3 /var/www/html/lib/Cake/Controller/Controller.php(1268): spl_autoload_call('TwigView')
+#4 /var/www/html/lib/Cake/Controller/Controller.php(954): Controller->_getViewObject()
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-10-31 17:22:03 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Autoloader.php' (include_path='/var/www/html/lib:.:/usr/local/lib/php') in [/var/www/html/app/Plugin/TwigView/View/TwigView.php, line 24]
+2019-10-31 17:22:03 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Autoloader.php' (include_path='/var/www/html/lib:.:/usr/local/lib/php')
+Request URL: /
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/a...', 24)
+#1 /var/www/html/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/a...', 24, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-31 17:24:16 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:26:42 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:26:42 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:26:42 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:27:41 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:43 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:44 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:44 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:44 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:44 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:44 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:44 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:45 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:45 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:45 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:45 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:45 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:45 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:46 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:46 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:46 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:47 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:47 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:47 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:28:47 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:30:41 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:30:42 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:30:42 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:31:06 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:35:29 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:35:30 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:35:30 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:35:30 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:35:31 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:35:31 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:35:31 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:38:26 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:38:27 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:38:27 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:38:27 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:38:27 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:38:27 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:40:18 Error: [MissingViewException] View file "Users/addArray" is missing.
+Exception Attributes: array (
+  'file' => 'Users/addArray',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:40:45 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:53:18 Error: [MissingViewException] View file "Users/add.twig.tpl" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.twig.tpl',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 17:54:11 Error: [Twig_Error_Syntax] The function "__" does not exist in "Users/add.twig.tpl" at line 15
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(334): Twig_ExpressionParser->getFunctionNodeClass('__', 15)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(147): Twig_ExpressionParser->getFunctionNode('__', 15)
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('// <div class="...', 'Users/add.twig....')
+#9 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Users/add.twig....')
+#10 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#11 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#12 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-10-31 17:54:19 Error: [Twig_Error_Syntax] Unexpected character ";" in "Users/add.twig.tpl" at line 15
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(219): Twig_Lexer->lexExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(118): Twig_Lexer->lexVar()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(443): Twig_Lexer->tokenize('// <div class="...', 'Users/add.twig....')
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->tokenize('// <div class="...', 'Users/add.twig....')
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('// <div class="...', 'Users/add.twig....')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Users/add.twig....')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-31 17:54:37 Error: [Twig_Error_Syntax] Unexpected character "$" in "Users/add.twig.tpl" at line 15
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(219): Twig_Lexer->lexExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(118): Twig_Lexer->lexVar()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(443): Twig_Lexer->tokenize('// <div class="...', 'Users/add.twig....')
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->tokenize('// <div class="...', 'Users/add.twig....')
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('// <div class="...', 'Users/add.twig....')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Users/add.twig....')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-31 17:55:06 Error: [Twig_Error_Syntax] Unexpected character "$" in "Users/add.twig.tpl" at line 18
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(219): Twig_Lexer->lexExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(118): Twig_Lexer->lexVar()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(443): Twig_Lexer->tokenize('// <div class="...', 'Users/add.twig....')
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->tokenize('// <div class="...', 'Users/add.twig....')
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('// <div class="...', 'Users/add.twig....')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Users/add.twig....')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-31 17:59:54 Error: [ArgumentCountError] Too few arguments to function NumberHelper::__construct(), 0 passed in /var/www/html/app/Plugin/TwigView/Lib/Twig_Extension_Number.php on line 37 and at least 1 expected
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Lib/Twig_Extension_Number.php(37): NumberHelper->__construct()
+#1 /var/www/html/app/Plugin/TwigView/tmp/views/28/c4/e8f37e1d2977fc4d9fd39a6fe227.php(35): Cake_Number_Filters::percentage('2.3')
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Template.php(264): __TwigTemplate_28c4e8f37e1d2977fc4d9fd39a6fe227->doDisplay(Array, Array)
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Template.php(238): Twig_Template->displayWithErrorHandling(Array, Array)
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Template.php(249): Twig_Template->display(Array)
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(140): Twig_Template->render(Array)
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-31 18:00:14 Error: [ArgumentCountError] Too few arguments to function NumberHelper::__construct(), 0 passed in /var/www/html/app/Plugin/TwigView/Lib/Twig_Extension_Number.php on line 37 and at least 1 expected
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Lib/Twig_Extension_Number.php(37): NumberHelper->__construct()
+#1 /var/www/html/app/Plugin/TwigView/tmp/views/28/c4/e8f37e1d2977fc4d9fd39a6fe227.php(35): Cake_Number_Filters::percentage('2.3')
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Template.php(264): __TwigTemplate_28c4e8f37e1d2977fc4d9fd39a6fe227->doDisplay(Array, Array)
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Template.php(238): Twig_Template->displayWithErrorHandling(Array, Array)
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Template.php(249): Twig_Template->display(Array)
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(140): Twig_Template->render(Array)
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-31 18:00:27 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('Users/add')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-10-31 18:01:20 Error: [ArgumentCountError] Too few arguments to function NumberHelper::__construct(), 0 passed in /var/www/html/app/Plugin/TwigView/Lib/Twig_Extension_Number.php on line 37 and at least 1 expected
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Lib/Twig_Extension_Number.php(37): NumberHelper->__construct()
+#1 /var/www/html/app/Plugin/TwigView/tmp/views/28/c4/e8f37e1d2977fc4d9fd39a6fe227.php(35): Cake_Number_Filters::percentage('2.3')
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Template.php(264): __TwigTemplate_28c4e8f37e1d2977fc4d9fd39a6fe227->doDisplay(Array, Array)
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Template.php(238): Twig_Template->displayWithErrorHandling(Array, Array)
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Template.php(249): Twig_Template->display(Array)
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(140): Twig_Template->render(Array)
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-31 18:08:38 Error: [Twig_Error_Syntax] Unexpected character "$" in "Posts/index.tpl" at line 1
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(219): Twig_Lexer->lexExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(118): Twig_Lexer->lexVar()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(443): Twig_Lexer->tokenize('{{ $post }}', 'Posts/index.tpl')
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->tokenize('{{ $post }}', 'Posts/index.tpl')
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('{{ $post }}', 'Posts/index.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-31 18:11:50 Error: [Twig_Error_Syntax] Unexpected character "$" in "Posts/view.tpl" at line 4
+Request URL: /posts/view/27
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(219): Twig_Lexer->lexExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(118): Twig_Lexer->lexVar()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(443): Twig_Lexer->tokenize('<div id="view__...', 'Posts/view.tpl')
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->tokenize('<div id="view__...', 'Posts/view.tpl')
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<div id="view__...', 'Posts/view.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/view.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-31 18:11:58 Error: [Twig_Error_Syntax] Unexpected token "punctuation" of value ":" ("end of print statement" expected) in "Posts/view.tpl" at line 4
+Request URL: /posts/view/27
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(146): Twig_TokenStream->expect(4)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<div id="view__...', 'Posts/view.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/view.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-31 18:19:41 Error: [Twig_Error_Syntax] Unclosed comment in "Posts/view.tpl" at line 9
+Request URL: /posts/view/27
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(174): Twig_Lexer->lexComment()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(110): Twig_Lexer->lexData()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(443): Twig_Lexer->tokenize('<div id="view__...', 'Posts/view.tpl')
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->tokenize('<div id="view__...', 'Posts/view.tpl')
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<div id="view__...', 'Posts/view.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/view.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

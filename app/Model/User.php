@@ -2,6 +2,7 @@
 
 App::uses('AuthComponent', 'Controller/Component');
 App::uses('BlowfishPasswordHasher', 'Controller/Component/Auth');
+App::uses('CakeEvent', 'Model');
 
 class User extends AppModel {
     public $validate = array(
@@ -34,6 +35,17 @@ class User extends AppModel {
             );
         }
         return true;
+    }
+
+    public function afterSave($created, $options = array())
+    {
+        if($created === true) {
+            $Event = new CakeEvent('Log.User.afterSave', $this, array(
+                'id' => $this->id,
+                'data' => $this->data,
+            ));
+        }
+        $this->getEventManager()->dispatch($Event);
     }
     
 

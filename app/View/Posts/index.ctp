@@ -24,21 +24,8 @@
             <td><?= CakeTime::format($post['Post']['created'], '%d/%m/%Y %H:%M:%p'); ?></td>
             <td>
                 <?php 
-                    if($user_role === 'admin') {
-
-                        echo $this->Html->link(
-                                'Editar', 
-                                array('action' => 'edit', $post['Post']['id']),
-                                array('class' => 'button button__edit')
-                        );
-                        echo $this->Form->postLink(
-                                'Deletar',
-                                array('action' => 'delete', $post['Post']['id']),
-                                array('class' => 'button button__delete', 'confirm' => 'Você tem certeza?')
-                        );
-
-                    } else if($post['Post']['user_id'] === $id_user_logged && $user_role === 'author') {
-
+                    if($user_role === 'admin' 
+                    || $post['Post']['user_id'] === $id_user_logged && $user_role === 'author') {
                         echo $this->Html->link(
                             'Editar', 
                             array('action' => 'edit', $post['Post']['id']),
@@ -47,11 +34,10 @@
                         echo $this->Form->postLink(
                                 'Deletar',
                                 array('action' => 'delete', $post['Post']['id']),
-                                array('class' => 'button button__delete','confirm' => 'Você tem certeza?')
+                                array('class' => 'button button__delete', 'confirm' => 'Você tem certeza?')
                         );
-
                     } else {
-                        echo "Sem permissões de alteração";
+                        echo"Sem permissões de alteração";
                     }
                 ?>
             </td>

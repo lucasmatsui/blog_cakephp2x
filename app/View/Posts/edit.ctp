@@ -10,8 +10,12 @@
     'rows' => '3',
     'value' => $data_post['Post']['body'],
   ));
-  echo $this->Form->input('id_post_edit', array(
+  echo $this->Form->input('id_post', array(
     'value' => $data_post['Post']['id'],
+    'type' => 'hidden'
+  ));
+  echo $this->Form->input('user_id', array(
+    'value' => $data_post['Post']['user_id'],
     'type' => 'hidden'
   ));
   echo $this->Form->end('Atualizar');

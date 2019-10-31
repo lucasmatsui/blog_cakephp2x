@@ -30,13 +30,13 @@ class PostsController extends AppController
   public function view($id = null)
   {
     if (!$id) {
-      return $this->redirect(array('action' => 'index'));
+      $this->redirect(array('action' => 'index'));
     }
 
     $data_post = $this->Post->findById($id);
 
     if (!$data_post) {
-      return $this->redirect(array('action' => 'index'));
+      $this->redirect(array('action' => 'index'));
     }
 
     $this->set('post', $data_post);
@@ -44,20 +44,18 @@ class PostsController extends AppController
 
   public function add()
   {
-    if ($this->request->is('post')) {
-      $this->request->data['Post']['user_id'] = $this->Auth->user('id');
-      if ($this->Post->save($this->request->data)) {
-
-        $this->Post->registerLog(
-          '[Criou] '.$this->Auth->user('username').' criou um post de id: '.$this->Post->id, 
-          $this->Auth->user('id')
-        );
-
-        $this->Flash->success('Postado com sucesso!');
-        return $this->redirect(array('action' => 'index'));
-      }
-      $this->Flash->error('Não foi possivel realizar o post');
+    if (!$this->request->is('post')) {
+      return false;
     }
+
+    $this->request->data['Post']['user_id'] = $this->Auth->user('id');
+
+    if (!$this->Post->save($this->request->data)) {
+      return $this->Flash->error('Preecha os campos corretamente!');
+    }
+
+    $this->Flash->success('Postado com sucesso!');
+    return $this->redirect(array('action' => 'index'));
   }
 
   public function edit($id = null)
@@ -67,6 +65,7 @@ class PostsController extends AppController
     }
 
     $data_post = $this->Post->findById($id);
+
     if (!$data_post) {
       return $this->redirect(array('action' => 'index'));
     }
@@ -75,16 +74,12 @@ class PostsController extends AppController
       $this->Post->id = $id;
       if($this->Post->save($this->request->data)) {
 
-        $this->Post->registerLog(
-          '[Editou] '.$this->Auth->user('username').' editou um post de id: '.$this->Post->id, 
-          $this->Auth->user('id')
-        );
-
         $this->Flash->success('Post atualizado com sucesso!');
         return $this->redirect(array('action' => 'index'));
       }
       $this->Flash->error('Post não foi atualizado, tente novamente');
     }
+
     $this->set('data_post', $data_post);
   }
 
@@ -100,11 +95,7 @@ class PostsController extends AppController
       return $this->redirect(array('controller' => 'posts','action' => 'index'));
     }
 
-    if ($this->Post->delete($id)) {
-      $this->Post->registerLog(
-        '[Deletou] '.$this->Auth->user('username').' excluiu um post de id: '.$id, 
-        $this->Auth->user('id')
-      );
+    if ($this->Post->delete($id,  $cascade = false)) {
       $this->Flash->success('Deletado com sucesso');
       return $this->redirect(array('controller' => 'posts','action' => 'index'));
     }

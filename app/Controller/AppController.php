@@ -32,8 +32,7 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
   public $viewClass = 'TwigView.Twig';
-    public $ext = '.tpl';
-    public $helpers = array('Html', 'Form');
+  public $ext = '.tpl';
 
   public $components = array(
     'Flash',

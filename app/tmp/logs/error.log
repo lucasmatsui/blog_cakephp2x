@@ -2781,3 +2781,821 @@ Stack Trace:
 #9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
 #10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #11 {main}
+2019-11-01 11:47:32 Error: [Twig_Error_Syntax] The filter "Html" does not exist in "Posts/index.tpl" at line 10
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(436): Twig_ExpressionParser->getFilterNodeClass('Html', 10)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(421): Twig_ExpressionParser->parseFilterExpressionRaw(Object(Twig_Node_Expression_Constant))
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(285): Twig_ExpressionParser->parseFilterExpression(Object(Twig_Node_Expression_Constant))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(174): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Constant))
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('\n<h1 id="main__...', 'Posts/index.tpl')
+#11 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#12 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#13 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#15 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#16 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2019-11-01 11:56:32 Error: [Twig_Error_Syntax] Unknown tag name "posts" in "Posts/index.tpl" at line 10
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('\n<h1 id="main__...', 'Posts/index.tpl')
+#4 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#5 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#6 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-11-01 12:06:44 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /view/1
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-11-01 12:06:52 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /view/29
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-11-01 12:07:19 Error: [Twig_Error_Syntax] Unexpected "}" in "Posts/view.tpl" at line 2
+Request URL: /posts/view/29
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(219): Twig_Lexer->lexExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(118): Twig_Lexer->lexVar()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(443): Twig_Lexer->tokenize('<div id="view__...', 'Posts/view.tpl')
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->tokenize('<div id="view__...', 'Posts/view.tpl')
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<div id="view__...', 'Posts/view.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/view.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-11-01 12:11:27 Error: [Twig_Error_Syntax] A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "Posts/index.tpl" at line 13
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(168): Twig_ExpressionParser->parseHashExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(471): Twig_ExpressionParser->parseExpression()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(360): Twig_ExpressionParser->parseArguments()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(283): Twig_ExpressionParser->parseSubscriptExpression(Object(Twig_Node_Expression_Name))
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(174): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#11 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#12 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#13 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('\n<h1 id="main__...', 'Posts/index.tpl')
+#14 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#15 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#16 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#17 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#18 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#19 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2019-11-01 12:14:10 Error: [Twig_Error_Syntax] A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "Posts/index.tpl" at line 10
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(168): Twig_ExpressionParser->parseHashExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(471): Twig_ExpressionParser->parseExpression()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(360): Twig_ExpressionParser->parseArguments()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(283): Twig_ExpressionParser->parseSubscriptExpression(Object(Twig_Node_Expression_Name))
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(174): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#11 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#12 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#13 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('\n<h1 id="main__...', 'Posts/index.tpl')
+#14 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#15 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#16 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#17 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#18 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#19 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2019-11-01 12:14:12 Error: [Twig_Error_Syntax] A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "Posts/index.tpl" at line 10
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(168): Twig_ExpressionParser->parseHashExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(471): Twig_ExpressionParser->parseExpression()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(360): Twig_ExpressionParser->parseArguments()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(283): Twig_ExpressionParser->parseSubscriptExpression(Object(Twig_Node_Expression_Name))
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(174): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#11 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#12 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#13 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('\n<h1 id="main__...', 'Posts/index.tpl')
+#14 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#15 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#16 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#17 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#18 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#19 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2019-11-01 12:32:04 Error: [Twig_Error_Syntax] The function "var_dump" does not exist in "Posts/index.tpl" at line 18
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(334): Twig_ExpressionParser->getFunctionNodeClass('var_dump', 18)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(147): Twig_ExpressionParser->getFunctionNode('var_dump', 18)
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/For.php(48): Twig_Parser->subparse(Array)
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_For->parse(Object(Twig_Token))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#11 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#12 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#13 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#15 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#16 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2019-11-01 12:36:02 Error: [Twig_Error_Syntax] The function "var_dump" does not exist in "Posts/index.tpl" at line 18
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(334): Twig_ExpressionParser->getFunctionNodeClass('var_dump', 18)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(147): Twig_ExpressionParser->getFunctionNode('var_dump', 18)
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/For.php(48): Twig_Parser->subparse(Array)
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_For->parse(Object(Twig_Token))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#11 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#12 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#13 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#15 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#16 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2019-11-01 12:40:08 Error: [Twig_Error_Syntax] A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "." ("punctuation" expected with value ":") in "Posts/index.tpl" at line 22
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(267): Twig_TokenStream->expect(9, ':', 'A hash key must...')
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(168): Twig_ExpressionParser->parseHashExpression()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(471): Twig_ExpressionParser->parseExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(360): Twig_ExpressionParser->parseArguments()
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(283): Twig_ExpressionParser->parseSubscriptExpression(Object(Twig_Node_Expression_Name))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(174): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#11 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/For.php(48): Twig_Parser->subparse(Array)
+#12 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_For->parse(Object(Twig_Token))
+#13 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#14 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#15 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#16 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#17 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#18 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#19 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#20 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#21 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#22 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#23 {main}
+2019-11-01 12:40:40 Error: [Twig_Error_Syntax] Unclosed "{" in "Posts/index.tpl" at line 22
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(219): Twig_Lexer->lexExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(118): Twig_Lexer->lexVar()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(443): Twig_Lexer->tokenize('<h1 id="main__t...', 'Posts/index.tpl')
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->tokenize('<h1 id="main__t...', 'Posts/index.tpl')
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-11-01 12:40:57 Error: [Twig_Error_Syntax] Unclosed "{" in "Posts/index.tpl" at line 22
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(219): Twig_Lexer->lexExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(118): Twig_Lexer->lexVar()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(443): Twig_Lexer->tokenize('<h1 id="main__t...', 'Posts/index.tpl')
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->tokenize('<h1 id="main__t...', 'Posts/index.tpl')
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-11-01 12:41:12 Error: [Twig_Error_Syntax] A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "." ("punctuation" expected with value ":") in "Posts/index.tpl" at line 21
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(267): Twig_TokenStream->expect(9, ':', 'A hash key must...')
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(168): Twig_ExpressionParser->parseHashExpression()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(471): Twig_ExpressionParser->parseExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(360): Twig_ExpressionParser->parseArguments()
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(283): Twig_ExpressionParser->parseSubscriptExpression(Object(Twig_Node_Expression_Name))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(174): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#11 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/For.php(48): Twig_Parser->subparse(Array)
+#12 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_For->parse(Object(Twig_Token))
+#13 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#14 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#15 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#16 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#17 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#18 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#19 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#20 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#21 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#22 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#23 {main}
+2019-11-01 12:41:45 Error: [Twig_Error_Syntax] A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "Posts/index.tpl" at line 21
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(168): Twig_ExpressionParser->parseHashExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(471): Twig_ExpressionParser->parseExpression()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(360): Twig_ExpressionParser->parseArguments()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(283): Twig_ExpressionParser->parseSubscriptExpression(Object(Twig_Node_Expression_Name))
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(174): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/For.php(48): Twig_Parser->subparse(Array)
+#11 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_For->parse(Object(Twig_Token))
+#12 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#13 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#14 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#15 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#16 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#17 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#18 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#19 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#20 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#21 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#22 {main}
+2019-11-01 12:42:27 Error: [Twig_Error_Syntax] Unexpected token "punctuation" of value ")" in "Posts/index.tpl" at line 23
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(471): Twig_ExpressionParser->parseExpression()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(360): Twig_ExpressionParser->parseArguments()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(283): Twig_ExpressionParser->parseSubscriptExpression(Object(Twig_Node_Expression_Name))
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(174): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/For.php(48): Twig_Parser->subparse(Array)
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_For->parse(Object(Twig_Token))
+#11 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#12 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#13 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#14 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#15 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#16 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#17 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#18 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#19 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#20 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#21 {main}
+2019-11-01 12:43:18 Error: [Twig_Error_Syntax] A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "}" ("punctuation" expected with value ":") in "Posts/index.tpl" at line 22
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(267): Twig_TokenStream->expect(9, ':', 'A hash key must...')
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(168): Twig_ExpressionParser->parseHashExpression()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(471): Twig_ExpressionParser->parseExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(360): Twig_ExpressionParser->parseArguments()
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(283): Twig_ExpressionParser->parseSubscriptExpression(Object(Twig_Node_Expression_Name))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(174): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#11 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/For.php(48): Twig_Parser->subparse(Array)
+#12 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_For->parse(Object(Twig_Token))
+#13 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#14 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#15 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#16 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#17 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#18 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#19 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#20 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#21 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#22 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#23 {main}
+2019-11-01 12:43:46 Error: [Twig_Error_Syntax] A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "}" ("punctuation" expected with value ":") in "Posts/index.tpl" at line 22
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(267): Twig_TokenStream->expect(9, ':', 'A hash key must...')
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(168): Twig_ExpressionParser->parseHashExpression()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(471): Twig_ExpressionParser->parseExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(360): Twig_ExpressionParser->parseArguments()
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(283): Twig_ExpressionParser->parseSubscriptExpression(Object(Twig_Node_Expression_Name))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(174): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#11 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/For.php(48): Twig_Parser->subparse(Array)
+#12 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_For->parse(Object(Twig_Token))
+#13 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#14 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#15 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#16 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#17 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#18 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#19 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#20 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#21 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#22 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#23 {main}
+2019-11-01 12:44:33 Error: [Twig_Error_Syntax] A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "Posts/index.tpl" at line 22
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(168): Twig_ExpressionParser->parseHashExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(471): Twig_ExpressionParser->parseExpression()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(360): Twig_ExpressionParser->parseArguments()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(283): Twig_ExpressionParser->parseSubscriptExpression(Object(Twig_Node_Expression_Name))
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(174): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/For.php(48): Twig_Parser->subparse(Array)
+#11 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_For->parse(Object(Twig_Token))
+#12 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#13 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#14 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#15 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#16 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#17 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#18 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#19 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#20 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#21 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#22 {main}
+2019-11-01 12:44:45 Error: [Twig_Error_Syntax] A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "Posts/index.tpl" at line 22
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(168): Twig_ExpressionParser->parseHashExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(471): Twig_ExpressionParser->parseExpression()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(360): Twig_ExpressionParser->parseArguments()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(283): Twig_ExpressionParser->parseSubscriptExpression(Object(Twig_Node_Expression_Name))
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(174): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/For.php(48): Twig_Parser->subparse(Array)
+#11 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_For->parse(Object(Twig_Token))
+#12 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#13 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#14 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#15 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#16 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#17 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#18 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#19 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#20 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#21 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#22 {main}
+2019-11-01 12:48:11 Error: [Twig_Error_Syntax] Unclosed "(" in "Posts/index.tpl" at line 27
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(219): Twig_Lexer->lexExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(118): Twig_Lexer->lexVar()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(443): Twig_Lexer->tokenize('<h1 id="main__t...', 'Posts/index.tpl')
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->tokenize('<h1 id="main__t...', 'Posts/index.tpl')
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-11-01 13:17:53 Error: [Twig_Error_Syntax] The test "same" does not exist. Did you mean "sameas" in "Posts/index.tpl" at line 30
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Extension/Core.php(275): Twig_Extension_Core->getTestNodeClass(Object(Twig_Parser), 'same', 30)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(48): Twig_Extension_Core->parseTestExpression(Object(Twig_Parser), Object(Twig_Node_Expression_Name))
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(78): Twig_ExpressionParser->parseExpression()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/If.php(38): Twig_ExpressionParser->parseExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/For.php(48): Twig_Parser->subparse(Array)
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_For->parse(Object(Twig_Token))
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#11 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#12 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#13 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#14 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#15 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#16 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#17 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2019-11-01 13:18:18 Error: [Twig_Error_Syntax] Unexpected token "name" of value "html" ("end of print statement" expected) in "Posts/index.tpl" at line 38
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(146): Twig_TokenStream->expect(4)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/If.php(41): Twig_Parser->subparse(Array)
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_If->parse(Object(Twig_Token))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/For.php(48): Twig_Parser->subparse(Array)
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_For->parse(Object(Twig_Token))
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#9 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#10 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#11 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#12 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-11-01 13:20:59 Error: [Twig_Error_Syntax] The function "__" does not exist in "Posts/index.tpl" at line 47
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(334): Twig_ExpressionParser->getFunctionNodeClass('__', 47)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(147): Twig_ExpressionParser->getFunctionNode('__', 47)
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/If.php(50): Twig_Parser->subparse(Array)
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_If->parse(Object(Twig_Token))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/TokenParser/For.php(48): Twig_Parser->subparse(Array)
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(191): Twig_TokenParser_For->parse(Object(Twig_Token))
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#11 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#12 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#13 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#14 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#15 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#16 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#17 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#18 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2019-11-01 13:21:54 Error: [Twig_Error_Syntax] The function "unset" does not exist in "Posts/index.tpl" at line 51
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(334): Twig_ExpressionParser->getFunctionNodeClass('unset', 51)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(147): Twig_ExpressionParser->getFunctionNode('unset', 51)
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#9 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#10 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#11 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#12 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-11-01 13:22:04 Error: [Twig_Error_Syntax] The filter "post" does not exist in "Posts/index.tpl" at line 51
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(436): Twig_ExpressionParser->getFilterNodeClass('post', 51)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(421): Twig_ExpressionParser->parseFilterExpressionRaw(Object(Twig_Node_Expression_Name))
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(285): Twig_ExpressionParser->parseFilterExpression(Object(Twig_Node_Expression_Name))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(174): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#9 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#10 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#11 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#12 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#13 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#15 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#16 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2019-11-01 13:25:00 Error: [Twig_Error_Syntax] Unexpected token "name" of value "post" ("end of print statement" expected) in "Posts/index.tpl" at line 51
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(146): Twig_TokenStream->expect(4)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-11-01 13:25:18 Error: [Twig_Error_Syntax] Unknown tag name "unset" in "Posts/index.tpl" at line 51
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#4 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#5 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#6 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-11-01 13:26:48 Error: [Twig_Error_Syntax] Unknown tag name "unset" in "Posts/index.tpl" at line 51
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#4 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#5 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#6 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-11-01 13:26:48 Error: [Twig_Error_Syntax] Unknown tag name "unset" in "Posts/index.tpl" at line 51
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#4 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#5 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#6 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-11-01 13:26:49 Error: [Twig_Error_Syntax] Unknown tag name "unset" in "Posts/index.tpl" at line 51
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#4 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#5 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#6 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-11-01 13:26:49 Error: [Twig_Error_Syntax] Unknown tag name "unset" in "Posts/index.tpl" at line 51
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#4 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#5 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#6 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-11-01 13:27:00 Error: [Twig_Error_Syntax] Unexpected token "name" of value "posts" ("end of print statement" expected) in "Posts/index.tpl" at line 51
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(146): Twig_TokenStream->expect(4)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-11-01 13:27:11 Error: [Twig_Error_Syntax] Unexpected token "name" of value "post" ("end of print statement" expected) in "Posts/index.tpl" at line 51
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(146): Twig_TokenStream->expect(4)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-11-01 13:27:25 Error: [Twig_Error_Syntax] Unexpected token "name" of value "posts" ("end of print statement" expected) in "Posts/index.tpl" at line 51
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(146): Twig_TokenStream->expect(4)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-11-01 13:27:40 Error: [Twig_Error_Syntax] Unknown tag name "unset" in "Posts/index.tpl" at line 51
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#4 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#5 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#6 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-11-01 13:28:39 Error: [Twig_Error_Syntax] A block must start with a tag name in "Posts/index.tpl" at line 51
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<h1 id="main__t...', 'Posts/index.tpl')
+#4 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/index.tpl')
+#5 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#6 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-11-01 13:52:15 Error: [Twig_Error_Syntax] Unexpected ")" in "Posts/edit.tpl" at line 4
+Request URL: /posts/edit/30
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(219): Twig_Lexer->lexExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(118): Twig_Lexer->lexVar()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(443): Twig_Lexer->tokenize('<fieldset>\n<leg...', 'Posts/edit.tpl')
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->tokenize('<fieldset>\n<leg...', 'Posts/edit.tpl')
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<fieldset>\n<leg...', 'Posts/edit.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/edit.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-11-01 13:52:49 Error: [Twig_Error_Syntax] Unexpected ")" in "Posts/edit.tpl" at line 4
+Request URL: /posts/edit/30
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(219): Twig_Lexer->lexExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(118): Twig_Lexer->lexVar()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(443): Twig_Lexer->tokenize('<fieldset>\n<leg...', 'Posts/edit.tpl')
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->tokenize('<fieldset>\n<leg...', 'Posts/edit.tpl')
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<fieldset>\n<leg...', 'Posts/edit.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/edit.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-11-01 13:53:41 Error: [Twig_Error_Syntax] Unexpected ")" in "Posts/edit.tpl" at line 4
+Request URL: /posts/edit/30
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(219): Twig_Lexer->lexExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(118): Twig_Lexer->lexVar()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(443): Twig_Lexer->tokenize('<fieldset>\n<leg...', 'Posts/edit.tpl')
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->tokenize('<fieldset>\n<leg...', 'Posts/edit.tpl')
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<fieldset>\n<leg...', 'Posts/edit.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/edit.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-11-01 14:00:07 Error: [Twig_Error_Syntax] Unexpected character ";" in "Posts/edit.tpl" at line 20
+Request URL: /posts/edit/30
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(219): Twig_Lexer->lexExpression()
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Lexer.php(118): Twig_Lexer->lexVar()
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(443): Twig_Lexer->tokenize('<fieldset>\n<leg...', 'Posts/edit.tpl')
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->tokenize('<fieldset>\n<leg...', 'Posts/edit.tpl')
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<fieldset>\n<leg...', 'Posts/edit.tpl')
+#5 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Posts/edit.tpl')
+#6 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#7 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-11-01 14:28:00 Error: [Twig_Error_Syntax] The function "__" does not exist in "Users/add.tpl" at line 6
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(334): Twig_ExpressionParser->getFunctionNodeClass('__', 6)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(147): Twig_ExpressionParser->getFunctionNode('__', 6)
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('\n<div class="us...', 'Users/add.tpl')
+#9 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Users/add.tpl')
+#10 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#11 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#12 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-11-01 14:28:06 Error: [Twig_Error_Syntax] The function "_" does not exist in "Users/add.tpl" at line 6
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(334): Twig_ExpressionParser->getFunctionNodeClass('_', 6)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(147): Twig_ExpressionParser->getFunctionNode('_', 6)
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('\n<div class="us...', 'Users/add.tpl')
+#9 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Users/add.tpl')
+#10 /var/www/html/lib/Cake/View/View.php(473): TwigView->_render('/var/www/html/a...')
+#11 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#12 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-11-01 15:45:55 Error: [Twig_Error_Syntax] The function "__" does not exist in "Layouts/default.tpl" at line 25
+Request URL: /
+Stack Trace:
+#0 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(334): Twig_ExpressionParser->getFunctionNodeClass('__', 25)
+#1 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(147): Twig_ExpressionParser->getFunctionNode('__', 25)
+#2 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(145): Twig_ExpressionParser->parseExpression()
+#5 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Parser.php(99): Twig_Parser->subparse(NULL, false)
+#6 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(479): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(529): Twig_Environment->parse(Object(Twig_TokenStream))
+#8 /var/www/html/app/Plugin/TwigView/Vendor/Twig/lib/Twig/Environment.php(323): Twig_Environment->compileSource('<?php\n/**\n * Ca...', 'Layouts/default...')
+#9 /var/www/html/app/Plugin/TwigView/View/TwigView.php(139): Twig_Environment->loadTemplate('Layouts/default...')
+#10 /var/www/html/lib/Cake/View/View.php(546): TwigView->_render('/var/www/html/a...')
+#11 /var/www/html/lib/Cake/View/View.php(481): View->renderLayout('<h1 id="main__t...', 'default')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render(NULL, 'default')
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#15 /var/www/html/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}

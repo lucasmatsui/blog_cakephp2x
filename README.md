@@ -2,7 +2,8 @@
 - Iniciando o aprendizado em cakephp 2.x
 - Com autentificação de usuário.
 - Sistema de logs (Usando events(Observer Pattern)).
-- Twigs(.tpl).
+- Twig(.tpl) implementado.
+- Utilizando Docker.
 - Permissoẽs de acesso.
 
 ## Como utilizar
